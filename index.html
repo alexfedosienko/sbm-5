@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="wrapper header">
+				<nav class="header-nav">
+					<div class="header-left">
+						<ul class="header-list">
+							<li class="header-item"><a href="#" class="header-link">About</a></li>
+							<li class="header-item"><a href="#" class="header-link">Contacts</a></li>
+						</ul>
+					</div>
+					<div class="header-logo">
+						<a href="#">Camping.</a>
+					</div>
+					<div class="header-right">
+						<ul class="header-list">
+							<li class="header-item"><a href="#" class="header-link">Sign In</a></li>
+							<li class="header-item"><a href="#" class="header-link">Sign Up</a></li>
+							<li class="header-item"><a href="#" class="header-link header-link--search"><svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.031 14.617L20.314 18.899L18.899 20.314L14.617 16.031C13.0237 17.3082 11.042 18.0029 9 18C4.032 18 0 13.968 0 9C0 4.032 4.032 0 9 0C13.968 0 18 4.032 18 9C18.0029 11.042 17.3082 13.0237 16.031 14.617ZM14.025 13.875C15.2941 12.5699 16.0029 10.8204 16 9C16 5.132 12.867 2 9 2C5.132 2 2 5.132 2 9C2 12.867 5.132 16 9 16C10.8204 16.0029 12.5699 15.2941 13.875 14.025L14.025 13.875Z" fill="white"/></svg></a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<section>
+			<div class="wrapper main">
+				<div class="about">
+					<h1 class="main-title">Beatiful Places of England</h1>
+					<p class="main-subtitle">Plan your vacation on the most beatiful places of England</p>
+				</div>
+				<!-- <div class="upnext">
+					<div class="upnext-wrapper">
+						<span class="upnext-title">Up Next</span>
+						<a href="#" class="upnext-link">Aerial View of Rock Cliffs</a>
+						<a href="#" class="upnext-arrow"><svg width="43" height="14" viewbox="0 0 43 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" d="M33.4444 8.16667H0V5.83333H33.4444V0L43 7L33.4444 14V8.16667Z" fill="white"/></svg></a>
+					</div>
+					<img src="img/preview.jpg" class="upnext-img" alt="">
+				</div> -->
+			</div>
+			<div class="upnext">
+				<div class="upnext-wrapper">
+					<span class="upnext-title">Up Next</span>
+					<a href="#" class="upnext-link">Aerial View of Rock Cliffs</a>
+					<a href="#" class="upnext-arrow"><svg width="43" height="14" viewbox="0 0 43 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" d="M33.4444 8.16667H0V5.83333H33.4444V0L43 7L33.4444 14V8.16667Z" fill="white"/></svg></a>
+				</div>
+				<img src="img/preview.jpg" class="upnext-img" alt="">
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper form">
+				<h2 class="form-title">Book your vacation</h2>
+				<form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+					<div class="form-inputs">
+						<div class="form-wrapper">
+							<span class="form-icon">
+								<svg width="22" height="23" viewbox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.5 21.3334C21.5 21.6428 21.3771 21.9396 21.1583 22.1584C20.9395 22.3772 20.6428 22.5001 20.3333 22.5001H1.66667C1.35725 22.5001 1.0605 22.3772 0.841709 22.1584C0.622917 21.9396 0.5 21.6428 0.5 21.3334V9.07174C0.499877 8.89395 0.540387 8.71849 0.618435 8.55876C0.696484 8.39902 0.810007 8.25923 0.950334 8.15007L10.2837 0.891073C10.4885 0.731759 10.7405 0.645264 11 0.645264C11.2595 0.645264 11.5115 0.731759 11.7163 0.891073L21.0497 8.15007C21.19 8.25923 21.3035 8.39902 21.3816 8.55876C21.4596 8.71849 21.5001 8.89395 21.5 9.07174V21.3334ZM19.1667 20.1667V9.64107L11 3.28974L2.83333 9.64107V20.1667H19.1667Z" fill="#E7E7F2"/></svg>
+							</span>
+							<div class="form-input form-input--arrow">
+								<label for="input-accommodation">Accommodation</label>
+								<input id="input-accommodation" name="accommodation" type="text" value="6730 Luna Land North Rhiannonmouth">
+							</div>
+						</div>
+						<div class="form-wrapper">
+							<span class="form-icon">
+								<svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.8334 2.50008H22.5C22.8095 2.50008 23.1062 2.623 23.325 2.84179C23.5438 3.06058 23.6667 3.35733 23.6667 3.66675V22.3334C23.6667 22.6428 23.5438 22.9396 23.325 23.1584C23.1062 23.3772 22.8095 23.5001 22.5 23.5001H1.50004C1.19062 23.5001 0.893875 23.3772 0.675083 23.1584C0.45629 22.9396 0.333374 22.6428 0.333374 22.3334V3.66675C0.333374 3.35733 0.45629 3.06058 0.675083 2.84179C0.893875 2.623 1.19062 2.50008 1.50004 2.50008H6.16671V0.166748H8.50004V2.50008H15.5V0.166748H17.8334V2.50008ZM15.5 4.83342H8.50004V7.16675H6.16671V4.83342H2.66671V9.50008H21.3334V4.83342H17.8334V7.16675H15.5V4.83342ZM21.3334 11.8334H2.66671V21.1667H21.3334V11.8334Z" fill="#E7E7F2"/></svg>
+							</span>
+							<div class="form-input">
+								<label for="input-check-in">Check-in</label>
+								<input id="input-check-in" name="check-in" type="text" value="19.06.2019">
+							</div>
+						</div>
+						<div class="form-wrapper">
+							<div class="form-input">
+								<label for="input-check-out">Check-out</label>
+								<input id="input-check-out" name="check-out" type="text" value="19.06.2019">
+							</div>
+						</div>
+						<div class="form-wrapper">
+							<span class="form-icon">
+								<svg width="20" height="25" viewbox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.3334 24.6667H17V22.3334C17 21.4052 16.6313 20.5149 15.9749 19.8585C15.3185 19.2022 14.4283 18.8334 13.5 18.8334H6.50002C5.57176 18.8334 4.68152 19.2022 4.02515 19.8585C3.36877 20.5149 3.00002 21.4052 3.00002 22.3334V24.6667H0.666687V22.3334C0.666687 20.7863 1.28127 19.3026 2.37523 18.2086C3.46919 17.1147 4.95292 16.5001 6.50002 16.5001H13.5C15.0471 16.5001 16.5308 17.1147 17.6248 18.2086C18.7188 19.3026 19.3334 20.7863 19.3334 22.3334V24.6667ZM10 14.1667C9.08077 14.1667 8.17051 13.9857 7.32124 13.6339C6.47196 13.2821 5.70028 12.7665 5.05027 12.1165C4.40026 11.4665 3.88465 10.6948 3.53286 9.84553C3.18108 8.99625 3.00002 8.086 3.00002 7.16675C3.00002 6.2475 3.18108 5.33724 3.53286 4.48796C3.88465 3.63868 4.40026 2.86701 5.05027 2.217C5.70028 1.56699 6.47196 1.05137 7.32124 0.699591C8.17051 0.347808 9.08077 0.166748 10 0.166748C11.8565 0.166748 13.637 0.904246 14.9498 2.217C16.2625 3.52976 17 5.31023 17 7.16675C17 9.02326 16.2625 10.8037 14.9498 12.1165C13.637 13.4293 11.8565 14.1667 10 14.1667ZM10 11.8334C11.2377 11.8334 12.4247 11.3418 13.2999 10.4666C14.175 9.59141 14.6667 8.40443 14.6667 7.16675C14.6667 5.92907 14.175 4.74209 13.2999 3.86692C12.4247 2.99175 11.2377 2.50008 10 2.50008C8.76234 2.50008 7.57536 2.99175 6.70019 3.86692C5.82502 4.74209 5.33335 5.92907 5.33335 7.16675C5.33335 8.40443 5.82502 9.59141 6.70019 10.4666C7.57536 11.3418 8.76234 11.8334 10 11.8334Z" fill="#E7E7F2"/></svg>
+							</span>
+							<div class="form-input form-input--arrow">
+								<label for="input-guests">Guests</label>
+								<input id="input-guests" name="guests" type="text" value="4 adults">
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="btn">Search</button>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>
